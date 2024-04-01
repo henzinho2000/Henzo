@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 237, 237);
+}
+body{
+    background-color: rgb(255, 233, 207);
+}
+
+/*  HEADER  */
+
+header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 7vw;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+}
+header img{
+    width: 6vw;
+    border-radius: 10vw;
+    transition: .4s all;
+    border: 0px dotted rgb(255, 237, 237);
+}
+header img:hover{
+    transform: scale(1.1);
+    border: 7px dotted rgb(255, 237, 237);
+}
+
+h1,h2,img{
+    transition: all .5s;
+    user-select: none;
+}
+
+h1:hover ,h2:hover{
+    transform: scale(1.04);
+}
+
+.nome{
+    font-size: 1vw;
+}
+.ola {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-style:normal;
+    font-size: 4vw;
+}
+ 
+/*  CONTATOS  */
+.dados{
+    width: 17vw;
+    height: 89vh;
+    background-color: rgb(233, 15, 73);
+    position: fixed;
+    top: 7vw;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.center{
+    width: 15vw;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+hr{
+    margin-top: 1vw;
+}
+
+
+.redes{
+    display: flex;
+    align-items: center;
+    margin-top: 2vw;
+    width: 11vw;
+    height: 2vw;
+    background-color: black;
+    padding: 1vw 2vw;
+    border-radius: 4vw;
+    transition: .6s all;
+}
+.redes:hover{
+    border-radius: 0;
+    background-color: rgb(29, 29, 29);
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.redes img{
+    width: 2.5vw;
+}
+a{
+    text-decoration:none ;
+}
+.redes p{
+    padding-left: 1vw;
+    font-size: 1vw;
+}
+.contatos{
+    margin-top: 1vw;
+}
+
+/*  DESENVOLVIMENTO  */
+.desenvolvimento {
+    top: 13vw;
+    font-size: 1.25vw;
+    line-height: 1.5;
+    width: 65vw;
+    left: 25vw;
+    text-align: justify;
+    position: absolute;
+}
+.desenvolvimento p{
+    color: rgb(67, 15, 85);
+}
+.desenvolvimento h2{
+    color: rgb(233, 15, 73);
+    transition: .5s all;
+}
+h2:hover{
+    transform: scale(1.05);
+    margin-left: 1.3vw;
+}
+.linha{
+    width: 31.5%;
+    height: .5vh;
+    background-color: rgb(67, 15, 85);
+    border-radius: 1vw;
+    margin-bottom: 5vh;
+}
+.assinatura{
+    width: 10vw;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+    rotate: 340deg;
+    margin-left: 55vw;
+}
+.info p{
+    margin-top: 1vh;
+}
+.info strong,.historico strong{
+    color: rgb(67, 15, 85);
+}
+
+.historico{
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+}
+
+.historico embed{
+    width: 70vw;
+    height: 60vh;
+    border-radius: 2vw;
+    border: .2vw solid black;
+}
+
+footer{
+    background-color: black;
+    top: 96.7vh;
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+    font-size: 2vh;
+    height: 4vw;
+    padding-top: .2vw;
+}
+
+/*  CERTIFICADOS  */
+.cursos{
+    position: absolute;
+    top: 290vh;
+    left: 25vw;
+    font-size: 1.25vw;
+    padding-bottom: 10vh;
+}
+.certificado{
+    display: flex;
+    
+}
+.certificado img{
+    width: 35vw;
+    margin-top: 5vh;
+}
+.cursos h2{
+    color: rgb(233, 15, 73);
+}
